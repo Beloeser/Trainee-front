@@ -33,9 +33,11 @@ function Login() {
                         required 
                     />
                 </Campo>
-                <p style={{color :" #ffffff"}}>
-
-                 Não tem login? Faça seu cadastro "aqui"
+                <p style={{ color: "#ffffff" }}>
+                    Não tem login? Faça seu cadastro{" "}
+                    <span style={{ color: "yellow", textDecoration: "underline", cursor: "pointer" }}>
+                        aqui
+                    </span>
                 </p>
 
                 

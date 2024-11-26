@@ -68,11 +68,12 @@ function Cadastro() {
                         required 
                     />
                 </Campo>
-                <p style={{color :" #ffffff"}}>
-
-                 Já tem uma conta? Faça seu login "aqui"
+                <p style={{ color: "#ffffff" }}>
+                    Já tem cadastro?Para fazer login clique {" "}
+                    <span style={{ color: "yellow", textDecoration: "underline", cursor: "pointer" }}>
+                        aqui
+                    </span>
                 </p>
-
                 
                 <BotaoPadrao type="submit">Cadastrar</BotaoPadrao> 
             </form>

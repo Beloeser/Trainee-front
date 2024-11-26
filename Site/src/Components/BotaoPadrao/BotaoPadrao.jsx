@@ -1,9 +1,9 @@
 import  { StyleBotaopadrao } from  "./Styles" ;
 
- function BotaoPadrao () { 
+ function BotaoPadrao (props) { 
     return (
     <div>
-        <StyleBotaopadrao>
+        <StyleBotaopadrao onClick ={props.onClick}>
             Criar Conta
         </StyleBotaopadrao>
     </div>
