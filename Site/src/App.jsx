@@ -1,14 +1,18 @@
 import React from 'react';
-import Cadastro from "./Pages/Cadastro/Cadastro" ;
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Cadastro from "./Pages/Cadastro/Cadastro";
 import Login from './Pages/Login/Login';
-import Home from './Pages/Home/Home'
-
+import Home from './Pages/Home/Home';
 
 function App() {
     return (
-        <div>
-   <Home/>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/cadastro" element={<Cadastro />} />
+            </Routes>
+        </Router>
     );
 }
 

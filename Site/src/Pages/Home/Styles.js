@@ -8,13 +8,40 @@ export const ContentStyle = styled.h3`
   color: #000000;
   line-height: 160px;
   text-align: center;
-  background: #364d79;
+  background: #fff000;
+  justify-content:center ;
+  align-items :center;
+
+    
+  
+  
 `;
 
 
 export const HomeConteiner = styled.div`
-  background-color: #000000; /* Cor de fundo */
-  min-height: 100vh; /* Para garantir que a altura da página ocupe a tela toda */
-  padding: 20px; /* Espaçamento interno */
+ display : flex ;
+ flex-direction : column ;
+ background-color: #000000; 
+  min-height: 100vh; 
+  padding: 20px; 
+  justify-content : center ;
+  align-items: center ;
+
+
+
+    
+  .Carousel{
+    display : flex ;
+    width :100% ;
+    justify-content : center;
+    align-items: center ;
+    text-align :center ;
+    
+  }
+
+  
+  
+
+  
 `;
 

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyleBotaopadrao = styled.button`
+justify-content : center ;
   display: flex ;
   width : 200px ;
   padding: 12px 45px;

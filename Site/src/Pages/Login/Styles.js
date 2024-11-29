@@ -1,15 +1,14 @@
 import styled from "styled-components";
 //teste de git
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 6000px;
-  background-color: #000000;
-  border-radius: 20px;
-  padding: 20px;
-`;
+  display : flex ;
+  flex-direction: column ;
+ background-color: #000000; 
+  min-height: 100vh; 
+  padding: 20px; 
+  justify-content : center ;
+  align-items: center ;
+`
 
 export const Titulo = styled.h1`
   font-size: 50px;

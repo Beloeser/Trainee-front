@@ -1,12 +1,11 @@
-import  { StyleBotaopadrao } from  "./Styles" ;
+import { StyleBotaopadrao } from "./Styles";
 
- function BotaoPadrao (props) { 
+function BotaoPadrao({ onClick, type = "button", children }) {
     return (
-    <div>
-        <StyleBotaopadrao onClick ={props.onClick}>
-            Criar Conta
+        <StyleBotaopadrao onClick={onClick} type={type}>
+            {children}
         </StyleBotaopadrao>
-    </div>
- )
- }
- export default BotaoPadrao
+    );
+}
+
+export default BotaoPadrao;
